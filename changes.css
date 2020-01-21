@@ -1,0 +1,77 @@
+#masthead {
+	text-align: center;
+	background-color: black;
+}
+
+.main-navigation {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#site-navigation {
+	text-align: center;
+	background-color: gray;
+}
+
+#primary-menu {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-navigation li {
+	text-align: center; 
+    position: relative;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.hentry {
+    margin: 0 0 75px;
+    padding: 30px;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.widget-area {
+    width: 360px;
+    float: right;
+}
+
+.widget-area .widget {
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid gray;
+}
+
+.site-content {
+		margin: 60px 0 60px;
+    margin-right: auto;
+    margin-left: auto;
+		padding-left: 15px;
+    padding-right: 15px;
+}
+
+#content {
+	width: 1000px;
+}
+
+.content-area {
+    width: 550px;
+    float: left;
+}
+
+.site-info {
+	padding: 15px;
+    border-top: 1px solid;
+    text-align: center;
+	background-color: gray;
+}
+
+ul {
+	margin: auto auto;
+}
