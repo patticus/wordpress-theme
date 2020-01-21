@@ -13,10 +13,6 @@
 	background-color: gray;
 }
 
-#primary-menu {
-	margin-left: auto;
-	margin-right: auto;
-}
 
 .main-navigation li {
 	text-align: center; 
@@ -70,8 +66,4 @@
     border-top: 1px solid;
     text-align: center;
 	background-color: gray;
-}
-
-ul {
-	margin: auto auto;
 }

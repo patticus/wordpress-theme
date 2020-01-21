@@ -70,6 +70,11 @@ body {
 	margin: 0;
 }
 
+#masthead {
+	text-align: center;
+	background-color: black;
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -480,9 +485,9 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul, ol {
+/* ul, ol {
 	margin: 0 0 1.5em 3em;
-}
+} */
 
 ul {
 	list-style: disc;
@@ -637,22 +642,23 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
+	margin-left: auto;
+	margin-right: auto;
 	clear: both;
 	display: block;
-	float: left;
 	width: 100%;
+	text-align: center;
+	background-color: gray;
 }
 
 .main-navigation ul {
 	display: none;
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
+
 }
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
 	position: absolute;
 	top: 100%;
 	left: -999em;
@@ -679,7 +685,12 @@ a:hover, a:active {
 }
 
 .main-navigation li {
-	float: left;
+	text-align: center; 
+	position: relative;
+	padding: 10px 20px;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
 	position: relative;
 }
 
@@ -982,4 +993,51 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/* CUSTOM CHANGES TO PATTICUS THEME */
+
+
+.hentry {
+	margin: 0 0 75px;
+	padding: 30px;
+	background-color: #fff;
+	position: relative;
+	border: 1px solid gray;
+}
+
+.widget-area {
+	width: 360px;
+	float: right;
+}
+
+.widget-area .widget {
+	margin: 0 0 30px;
+	padding: 30px;
+	background-color: #fff;
+	border: 1px solid gray;
+}
+
+.site-content {
+	margin: 60px 0 60px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#content {
+width: 1000px;
+}
+
+.content-area {
+	width: 550px;
+	float: left;
+}
+
+.site-info {
+padding: 15px;
+	border-top: 1px solid;
+	text-align: center;
+background-color: gray;
 }
