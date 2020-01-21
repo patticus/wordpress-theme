@@ -485,9 +485,9 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-/* ul, ol {
-	margin: 0 0 1.5em 3em;
-} */
+ul, ol {
+	margin: auto auto;
+}
 
 ul {
 	list-style: disc;
@@ -642,10 +642,9 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	margin-left: auto;
-	margin-right: auto;
 	clear: both;
 	display: block;
+	/* float: left; */
 	width: 100%;
 	text-align: center;
 	background-color: gray;
@@ -654,11 +653,13 @@ a:hover, a:active {
 .main-navigation ul {
 	display: none;
 	list-style: none;
-
+	margin: 0;
+	padding-left: 0;
 }
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	/* float: left; */
 	position: absolute;
 	top: 100%;
 	left: -999em;
@@ -685,13 +686,13 @@ a:hover, a:active {
 }
 
 .main-navigation li {
+	/* float: left; */
 	text-align: center; 
-	position: relative;
-	padding: 10px 20px;
-	font-size: 13px;
-	font-weight: 600;
-	text-transform: uppercase;
-	position: relative;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .main-navigation a {
@@ -995,8 +996,8 @@ object {
 	display: block;
 }
 
-/* CUSTOM CHANGES TO PATTICUS THEME */
 
+/* CUSTOM PATTICUS CHANGES */
 
 .hentry {
 	margin: 0 0 75px;
@@ -1041,3 +1042,8 @@ padding: 15px;
 	text-align: center;
 background-color: gray;
 }
+
+ul {
+margin: auto auto;
+}
+
