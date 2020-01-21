@@ -43,7 +43,7 @@
 				<p class="site-description"><?php echo $uppercase_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
-
+		<div class="nav-container">
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'uppercase' ); ?></button>
 			<?php
@@ -53,6 +53,7 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

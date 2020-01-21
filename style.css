@@ -1047,4 +1047,10 @@ ul {
 margin: auto auto;
 }
 
+.nav-container {
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+}
+
 
