@@ -686,7 +686,7 @@ a:hover, a:active {
 }
 
 .main-navigation li {
-	/* float: left; */
+	float: left;
 	text-align: center; 
   position: relative;
   padding: 10px 20px;
@@ -1045,5 +1045,11 @@ background-color: gray;
 
 ul {
 margin: auto auto;
+}
+
+#site-navigation {
+	width: 600px;
+	text-align: center;
+	background-color: gray;
 }
 
