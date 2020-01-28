@@ -24,6 +24,8 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		 */
 		load_theme_textdomain( 'uppercase', get_template_directory() . '/languages' );
 
+		add_theme_support( 'post-formats',  array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
+		
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
 
